@@ -1,10 +1,6 @@
 from lxml import etree
 import os
-
-UPS_API_KEY = '9C99127EB3122933'
-UPS_SHIPPER_NUMBER = '72R97F'
-UPS_LOGIN = 'fewdalism'
-UPS_PASSWORD = 'Colonel1!'
+from settings import *
 
 
 def load_xml(fname):
